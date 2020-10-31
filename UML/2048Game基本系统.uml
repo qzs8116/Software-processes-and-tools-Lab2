@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Action.Action</OriginalElement>
+  <nodes>
+    <node x="365.2451923076923" y="0.0">Square.Square</node>
+    <node x="341.94983974358973" y="540.0">Action.Action</node>
+    <node x="75.5" y="497.0">Board.Board</node>
+    <node x="224.0" y="698.0">Game.Game</node>
+    <node x="74.0" y="1422.0">Start.Start</node>
+    <node x="71.5" y="1093.0">Start.Control</node>
+    <node x="0.0" y="708.0">UI.GameUI</node>
+    <node x="184.6275641025641" y="260.0">Board.Position</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Start.Start" target="Start.Control">
+      <point x="-39.5" y="-27.5" />
+      <point x="113.5" y="1397.0" />
+      <point x="112.25" y="1397.0" />
+      <point x="-40.75" y="139.5" />
+    </edge>
+    <edge source="Game.Game" target="Square.Square">
+      <point x="134.3125" y="-172.5" />
+      <point x="511.8125" y="678.0" />
+      <point x="647.4498397435898" y="678.0" />
+      <point x="647.4498397435898" y="230.0" />
+      <point x="513.9951923076923" y="230.0" />
+      <point x="63.75" y="105.0" />
+    </edge>
+    <edge source="Start.Control" target="Game.Game">
+      <point x="67.91666666666669" y="-139.5" />
+      <point x="220.91666666666669" y="1073.0" />
+      <point x="454.25" y="1073.0" />
+      <point x="76.75" y="172.5" />
+    </edge>
+    <edge source="Game.Game" target="Board.Position">
+      <point x="-19.1875" y="-172.5" />
+      <point x="358.3125" y="678.0" />
+      <point x="331.44983974358973" y="678.0" />
+      <point x="331.44983974358973" y="477.0" />
+      <point x="305.02756410256416" y="477.0" />
+      <point x="34.400000000000034" y="93.5" />
+    </edge>
+    <edge source="Action.Action" target="Board.Position">
+      <point x="5.6843418860808015E-14" y="-27.5" />
+      <point x="483.9498397435898" y="477.0" />
+      <point x="339.42756410256413" y="477.0" />
+      <point x="68.80000000000001" y="93.5" />
+    </edge>
+    <edge source="Board.Position" target="Square.Square">
+      <point x="-43.0" y="-93.5" />
+      <point x="227.6275641025641" y="230.0" />
+      <point x="386.4951923076923" y="230.0" />
+      <point x="-63.75" y="105.0" />
+    </edge>
+    <edge source="UI.GameUI" target="Start.Control">
+      <point x="25.5" y="162.5" />
+      <point x="127.5" y="1073.0" />
+      <point x="139.41666666666666" y="1073.0" />
+      <point x="-13.583333333333343" y="-139.5" />
+    </edge>
+    <edge source="Board.Board" target="Board.Position">
+      <point x="-70.66666666666669" y="-70.5" />
+      <point x="110.83333333333331" y="467.0" />
+      <point x="201.82756410256408" y="467.0" />
+      <point x="-68.80000000000001" y="93.5" />
+    </edge>
+    <edge source="UI.GameUI" target="Board.Board">
+      <point x="0.0" y="-162.5" />
+      <point x="-79.5" y="70.5" />
+    </edge>
+    <edge source="Game.Game" target="Board.Board">
+      <point x="-134.3125" y="-172.5" />
+      <point x="243.1875" y="678.0" />
+      <point x="155.0" y="678.0" />
+      <point x="-26.5" y="70.5" />
+    </edge>
+    <edge source="Game.Game" target="Action.Action">
+      <point x="57.5625" y="-172.5" />
+      <point x="435.0625" y="658.0" />
+      <point x="554.9498397435898" y="658.0" />
+      <point x="71.00000000000006" y="27.5" />
+    </edge>
+    <edge source="Start.Control" target="UI.GameUI">
+      <point x="-67.91666666666669" y="-139.5" />
+      <point x="85.08333333333331" y="1073.0" />
+      <point x="25.5" y="1073.0" />
+      <point x="-76.5" y="162.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6777777777777778" x="382.0" y="340.0" />
+  <SelectedNodes>
+    <node>Action.Action</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
