@@ -16,10 +16,6 @@ public class Game {
         action = new Action();
     }
 
-    public Board getBoard() {
-        return board;
-    }
-
     /**
      * 将所有方块都向上移动
      */
